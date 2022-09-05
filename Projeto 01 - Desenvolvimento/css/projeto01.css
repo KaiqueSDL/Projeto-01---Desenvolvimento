@@ -1,0 +1,218 @@
+
+
+/* background */
+.back {
+    background-repeat: no-repeat;
+    /* background-image: url("https://i.postimg.cc/YqFd6KWs/1.jpg"); */
+    background-image: url("https://image.winudf.com/v2/image/bWUud2FsbHBhcGEuYW1vbGVkX3NjcmVlbl85XzE1MzAwNjY0MTVfMDY4/screen-9.jpg?fakeurl=1&type=.webp");
+    background-size: cover;
+
+}
+
+
+
+
+/* Menu de navegação horizontal */
+.logo{
+    color: #00b8f2;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 7rem;
+    float: left;
+    padding-top: 8px;
+    margin: 5px 10px 0px 0px;
+}
+.logo-form{
+    color: #00b8f2;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 7rem;
+    float: left;
+    padding-top: 8px;
+    margin: -22px 0px 30px 50px;
+}
+.nav_hori {
+  float: left;
+  width: auto;
+  height: 100px;
+ 
+}
+
+.itens_nav {
+    padding-top: -4px;
+    margin-left: 2rem;
+    list-style: none;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.itens_nav li {
+    
+    font-size: 18px;
+    margin: 0 5rem 0 0;
+    display: inline-block;
+}
+
+.itens_nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+}
+.itens_nav a:hover{
+    color: #00b8f2;
+
+   
+    
+}
+
+
+.barra_pesquisa{
+    margin-left: 24.3rem;
+}
+.input_pesquisa{
+    padding: 0.7rem 2.5rem;
+    border: solid 1px #00b8f2 ;
+    border-radius: 0.3rem;
+    background: transparent;
+   
+}.input_submit{
+    padding: 0.7rem 1.5rem;
+    color: white;
+    border: solid 1px #00b8f2;
+    background-color: #00b8f2;
+    border-radius: 0.3rem;
+    margin-left: -10px;
+}
+
+
+
+/* 
+conteudo */
+.conteudo{
+    margin-top: 100px;
+    float: left;
+    margin-left:5rem;
+    width: 700px;
+}
+
+.titulo{
+    font-size:70px;
+    font-family: arial;
+    color: white;
+}
+.paragrafo{
+    margin-top: -40px;
+    font-size: 20px;
+    font-family: arial;
+    color: white;
+}
+.btnJoin{
+    background-color: #00b8f2;
+    border: solid 1px #00b8f2;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: arial;
+    color: black;
+    padding: 10px 50px;
+}
+
+
+
+
+/* FORMULARIO */
+
+.formulario{
+    margin: 120px 200px 0 0;
+    float: right;
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 15px;  
+
+}
+.formulario form{
+    margin-top: 30px;
+}
+.login{
+    padding: 0.7rem 7rem;
+    border-radius: 15px;
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: #00b8f2;
+    
+    margin: 20px 0px 0px 40px;
+}
+.formulario input{
+    margin: 20px 0px 0px 40px;
+    display: block;
+}
+
+.input_email_senha{
+    text-align: center;
+    font-weight: bolder ;
+    font-size: 14px;
+    padding: 0.7rem 4rem;
+    border: 0px;
+    border-bottom: solid 1px #00b8f2;
+    background: transparent;
+}
+
+.login2{
+    padding: 0.7rem 8rem;
+    border-radius: 15px;
+    background-color: #00b8f2;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    
+    margin: 20px 0px 0px 40px;
+}
+.signup{
+ 
+    font-family: arial;
+    text-align: center;
+}
+.signup p {
+    
+    padding-top: 15px;
+    padding-bottom: 10px;
+  
+    color: white;
+}
+
+.signup a {
+  
+    text-decoration: none;
+    color: #00b8f2;
+}
+
+
+
+
+
+.login_redes{
+    margin: 2rem;
+}
+
+.login_redes a{
+    text-decoration: none;
+    color: #fff;
+}
+.login_redes  ion-icon{
+    margin-left: 1rem;
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.login_redes ion-icon:hover{
+    color: #00b8f2;
+}
